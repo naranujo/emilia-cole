@@ -1,0 +1,53 @@
+/* Estilos correspondientes al home del sitio */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-image: url("../img/home.jpg");
+        background-size: 1140px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 300px;
+    }
+    main {
+        width: 300px;
+        height: 100vh;
+        background-color: white;
+    }
+    ul {
+        padding-top: 20px;
+        padding-left: 30px;
+        list-style: none;
+    }
+    ul li {
+        margin-top: 10px;
+    }
+    ul li a {
+        text-decoration: none;
+        color: grey;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .social-media a i {
+        color: black;
+    }
+    h1 {
+        width: 200px;
+        margin-top: 200px;
+        padding-left: 30px;
+        font-family: 'Work Sans', sans-serif;
+        text-transform: uppercase;
+    }
+    h2 {
+        margin-top: 200px;
+        padding-left: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 1440px;
+        background-color: rgba(255,255,255,0.25);
+        font: 45pt 'Raleway', sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+/* FIN estilos del HOME */
